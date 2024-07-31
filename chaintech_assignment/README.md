@@ -61,12 +61,7 @@ This application consists of three main components: Registration, Login, and Man
    npm start
    ```
 
-4. Start the backend server:
-   ```sh
-   cd backend
-   npm install
-   npm start
-   ```
+
 
 ## Technologies Used
 
@@ -78,4 +73,3 @@ This application consists of three main components: Registration, Login, and Man
 
 - `src/components`: Contains the React components (Registration, Login, ManageAccount, Navbar).
 - `src/styles`: Contains the CSS files for styling the components.
-- `backend`: Contains the backend code (Express server, routes, models, etc.).
