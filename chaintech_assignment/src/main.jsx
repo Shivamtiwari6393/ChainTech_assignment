@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Login from "./components/Login.jsx";
 import App from "./App.jsx";
 
+import Manage from "./components/Manage.jsx"
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -16,6 +18,12 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login></Login>,
   },
+
+  {
+    path: "/manage",
+    element: <Manage></Manage>
+
+  }
 
   
 ]);

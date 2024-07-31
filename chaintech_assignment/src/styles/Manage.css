@@ -1,0 +1,45 @@
+.manage-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.manage-account h2 {
+  text-align: center;
+  width: 70%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.manage-account form {
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.manage-account form input {
+  margin: 5px;
+}
+
+.manage-account label {
+  margin-top: 20px;
+}
+.manage-account button {
+  width: 30%;
+  margin: 15px 10px 0px 20px;
+}
+
+
+.manage-account div p{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 30px;
+
+}
+
+.manage-account .edit{
+    display: flex;
+    justify-content: center;
+}

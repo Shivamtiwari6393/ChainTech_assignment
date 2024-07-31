@@ -5,14 +5,22 @@ import Navbar from "./Navbar";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  // Hook for navigation
+
   const navigate = useNavigate();
+
+  // State for storing login data
 
   const [loginData, setLoginData] = useState({
     email: "",
     password: "",
   });
 
+  // State for tracking form submission
+
   const [submitted, setSubmitted] = useState(false);
+
+  // Handle input changes
 
   const handleChange = (e) => {
     setLoginData({
@@ -20,6 +28,8 @@ const Login = () => {
       [e.target.name]: e.target.value,
     });
   };
+
+  // Handle form submission
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -44,8 +54,12 @@ const Login = () => {
       })
       .then((data) => {
         if (data) {
+
+            
+          // Set the form as submitted and navigate to the manage account page
+
           setSubmitted(true);
-          navigate("/manage-account");
+          navigate("/manage");
         }
       })
       .catch((error) => {

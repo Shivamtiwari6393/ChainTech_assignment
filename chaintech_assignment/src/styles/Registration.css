@@ -11,7 +11,7 @@ body{
   font-family: Arial, sans-serif;
 }
 
-h2 {
+.registration h2 {
   text-align: center;
   margin-bottom: 20px;
   color: #333;
@@ -21,7 +21,7 @@ h2 {
   border-radius: 30px;
 }
 
-form {
+.registration form {
   background: #fff;
   padding: 20px;
   border-radius: 50px;
@@ -78,20 +78,20 @@ button:hover {
 
 @media (min-width: 800px) {
 
-    form{
+    .registration form{
         width: 40%;
     }
-    h2{
+    .registration   h2{
         width: 50%;
     }
 }
 
 @media (max-width: 450px) {
 
-    form{
+    .registration  form{
         width: 80%;
     }
-    h2{
+    .registration h2{
         width: 90%;
     }
 }
